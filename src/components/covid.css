@@ -1,0 +1,144 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+section {
+    background-color: #4B5D67;
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+
+h1, p, h2 {
+    color: #EEEEEE;
+}
+
+.card{
+    margin-top: 30px;
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card_main {
+    height: 200px;
+    width: 400px;
+    margin: 25px;
+    align-items: center;
+    background-color: rgb(116, 116, 209);
+}
+
+.card_back span{
+    transform: rotateY(180deg) scale(1.1);
+    background: #141414;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.card_back span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.card_name{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 0.9;
+}
+
+.card_name span{
+    font-size: 14px;
+}
+
+.card_total {
+    font-size: 100px;
+    font-weight: 700;
+    
+}
+
+.card_small{
+    font-size: 50px;
+}
+
+.card_inner{
+    padding: 20px 5px 5px 5px;
+} */
+
+
+body{
+    background-color: #041C32;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h4{
+    text-align: center;
+    color: aliceblue;
+}
+
+h1{
+    transition: 0s;
+    transform: scale(1.1);
+
+}
+
+p{
+    color: aliceblue;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+
+.card{
+    background-color:#3FC1C9;
+    height: 200px;
+    width: 400px;
+    margin-top: 50px;
+    margin-right: 50px;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+.card:hover{
+    transform:scale(1.1);
+    border: 4px solid #FFFFFF;
+    border-radius: 25px;
+
+} 
+
+.card_name{
+    font-size: 30px;
+    font-weight: bold;
+    text-align:center;
+    padding: 0;
+    margin: 10px;
+    text-shadow: 5px 3px 8px #111111;
+}
+
+.card_name span {
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.card_total {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 6px #FF0075;
+}
