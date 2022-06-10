@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CovidWatch/static/css/main.af8a0baf.css",
+    "main.js": "/CovidWatch/static/js/main.28c0059a.js",
+    "index.html": "/CovidWatch/index.html",
+    "main.af8a0baf.css.map": "/CovidWatch/static/css/main.af8a0baf.css.map",
+    "main.28c0059a.js.map": "/CovidWatch/static/js/main.28c0059a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af8a0baf.css",
+    "static/js/main.28c0059a.js"
+  ]
+}
